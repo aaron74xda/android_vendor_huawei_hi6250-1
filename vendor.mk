@@ -16,5 +16,5 @@
 
 
 PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/huawei/hi6250-common/blobs/,/) \
-	$(call find-copy-subdir-files,*,vendor/huawei/hi6250-common/recovery/,recovery/root/)
+	$(call find-copy-subdir-files,*,vendor/huawei/hi6250/blobs/,/) \
+	$(call find-copy-subdir-files,*,vendor/huawei/hi6250/recovery/,recovery/root/)
